@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios'>
+    <pages>
+        <page name='1.0 IfElse'/>
+        <page name='1.1 BooleanValues'/>
+        <page name='1.7 Switch'/>
+        <page name='1.8 Ternary operator'/>
+        <page name='1.9 Enumerations and Switch'/>
+        <page name='2.2 Funtions'/>
+    </pages>
+</playground>
