@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='ios'>
+<playground version='6.0' target-platform='ios' display-mode='rendered'>
     <pages>
         <page name='1.0 IfElse'/>
         <page name='1.1 BooleanValues'/>
@@ -7,5 +7,9 @@
         <page name='1.8 Ternary operator'/>
         <page name='1.9 Enumerations and Switch'/>
         <page name='2.2 Funtions'/>
+        <page name='2.3 Structures'/>
+        <page name='2.4 Classes, Inheritance'/>
+        <page name='2.5 Collections'/>
+        <page name='2.6 Loops'/>
     </pages>
 </playground>
