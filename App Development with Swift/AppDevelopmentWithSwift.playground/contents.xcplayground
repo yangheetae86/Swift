@@ -11,5 +11,12 @@
         <page name='2.4 Classes, Inheritance'/>
         <page name='2.5 Collections'/>
         <page name='2.6 Loops'/>
+        <page name='2.7 Introduction to UIKit'/>
+        <page name='2.8 Displaying Data'/>
+        <page name='3.1 Optionals'/>
+        <page name='3.2 Type Casting and Inspection'/>
+        <page name='3.3 Guard'/>
+        <page name='3.4 Constant and Variavle Scope'/>
+        <page name='3.5 Enumerations'/>
     </pages>
 </playground>

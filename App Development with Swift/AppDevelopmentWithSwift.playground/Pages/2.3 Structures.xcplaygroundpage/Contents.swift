@@ -1,4 +1,5 @@
 import Foundation
+import UIKit
 
 //struct Person {
 //    var name: String
@@ -168,3 +169,43 @@ let myAccount: Account = Account()
 //잔액이 0원에서 1000원으로 변경될 예정입니다.
 myAccount.credit = 1000
 //잔액이 0원에서 1000원으로 변경되었습니다
+
+
+struct Tem {
+    static var boil = 100
+}
+let boil = Tem.boil
+
+let smallerNumber = Double.maximum(100, -1000)
+
+//COPYING
+//var someSize = Size(width: 250, height: 1000)
+//var another = someSize
+//someSize.width = 400
+//print(someSize.width)
+//print(another.width)
+
+//SELF
+//struct Car {
+//    var color: Color
+//
+//    var description: String {
+//        return "This is a \(color) car."
+//    }
+//}
+
+//struct Ttt {
+//    var ccc: Double
+//    init(ccc: Double) {
+//        self.ccc = ccc
+//    }
+//}
+//
+//struct Car {
+//    var make: String
+//    var year: Int
+//    var color: Color
+//    var topSpeed: Int
+//}
+//let f_Car = Car(make: "honda", year: 2000, color: .blue, topSpeed: 120)
+//f_Car.color = .red //Compiler error!

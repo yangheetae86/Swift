@@ -12,5 +12,3 @@ if a > b {
 print(largest)
 largest = a > b ? b : c
 print(largest)
-
-
