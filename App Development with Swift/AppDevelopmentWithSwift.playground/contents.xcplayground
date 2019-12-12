@@ -18,5 +18,7 @@
         <page name='3.3 Guard'/>
         <page name='3.4 Constant and Variavle Scope'/>
         <page name='3.5 Enumerations'/>
+        <page name='3.9 Building Simple Workflows'/>
+        <page name='5.1 Closures'/>
     </pages>
 </playground>

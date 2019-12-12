@@ -28,3 +28,7 @@ case .south:
 case .west:
     print("go to west")
 }
+
+if compassHeading != .west {
+    print(compassHeading)
+}
