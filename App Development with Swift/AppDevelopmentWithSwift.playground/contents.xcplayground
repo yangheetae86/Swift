@@ -20,5 +20,8 @@
         <page name='3.5 Enumerations'/>
         <page name='3.9 Building Simple Workflows'/>
         <page name='5.1 Closures'/>
+        <page name='5.2 Extensions'/>
+        <page name='5.3 Practical Animation'/>
+        <page name='5.4 Working with the Web'/>
     </pages>
 </playground>
