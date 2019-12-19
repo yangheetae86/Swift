@@ -50,3 +50,16 @@ print("pnt2 정보 -> \(desc)")
 desc = pnt3.toString()
 print("pnt3 정보 -> \(desc)")
 
+var pnt4 = Point(x: 200.0, y: 200.0)
+if pnt4 === pnt2 {
+    print("pnt4 and pnt2 are same")
+}else{
+    print("pnt4 and pnt2 are different")
+}
+
+if pnt3 === pnt2 {
+    print("pnt4 and pnt2 are same")
+    }else{
+        print("pnt4 and pnt2 are different")
+}
+

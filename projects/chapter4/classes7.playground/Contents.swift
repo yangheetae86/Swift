@@ -8,7 +8,7 @@ class Person {
     var gender : Gender!
 
     init() {
-    
+
     }
     
     init(name: String, gender: Gender) {
@@ -22,10 +22,10 @@ class Person {
 }
 
 var person1:Person = Person(name:"소녀시대", gender:Gender.Female)
-/*if person1.gender == .Female {
+if person1.gender == .Female {
     print("여자입니다.")
 } else if person1.gender == .Male {
     print("남자입니다.")
 }
-*/
+
 
