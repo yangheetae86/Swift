@@ -7,5 +7,5 @@ func sum(start:Int, end:Int) -> Int {
     return total
 }
 
-var result = sum(start:1, end:11)
+var result = sum(start: 1, end: 11)
 print("sum(1, end:11)의 결과 -> \(result)")
