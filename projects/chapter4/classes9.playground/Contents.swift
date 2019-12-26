@@ -1,29 +1,28 @@
-enum Car : Int {
-    case Benz = 0
-    case BMW
-    case Other
-
-    var name : String {
-        if self == .Benz {
-            return "벤츠"
-        } else if self == .BMW {
-            return "비.엠.더블유"
-        } else {
-            return "기타"
-        }
-    }
-    
-    func getName() -> String {
-        return self.name
-    }
-}
-
-var car1 = Car.BMW
-print("차 이름 : \(car1.name)")
-
-var carName = car1.getName()
-print("차 이름 : \(carName)")
-
+//enum Car : Int {
+//    case Benz = 0
+//    case BMW
+//    case Other
+//
+//    var name : String {
+//        if self == .Benz {
+//            return "벤츠"
+//        } else if self == .BMW {
+//            return "비.엠.더블유"
+//        } else {
+//            return "기타"
+//        }
+//    }
+//
+//    func getName() -> String {
+//        return self.name
+//    }
+//}
+//
+//var car1 = Car.BMW
+//print("차 이름 : \(car1.name)")
+//
+//var carName = car1.getName()
+//print("차 이름 : \(carName)")
 
 enum CarSize {
     case Small

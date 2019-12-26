@@ -15,4 +15,3 @@ var size1 = CarSize(rawValue: "소형")!
 
 print("자동차 구분 값 : \(car1.rawValue)")
 print("자동차 크기 구분 값 : \(size1.rawValue)")
-
