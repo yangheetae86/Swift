@@ -7,7 +7,7 @@ func checkName(names:[String]) {
 }
 
 let names = ["소녀시대","걸스데이","티아라"]
-checkName(names:names)
+checkName(names: names)
 
 
 var names2:[String] = ["소녀시대","걸스데이","티아라"]

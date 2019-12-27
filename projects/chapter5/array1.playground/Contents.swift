@@ -1,7 +1,7 @@
 class Person {
-    var name : String?
+    var name: String?
     
-    init(name:String) {
+    init(name: String) {
         self.name = name
     }
 }
@@ -14,17 +14,17 @@ let name4 = "티아라"
 let name5 = "애프터스쿨"
 
 func createPerson() -> Person {
-    var person : Person!
+    var person: Person!
     if count == 0 {
-        person = Person(name:name1);
+        person = Person(name: name1)
     } else if count == 1 {
-        person = Person(name:name2);
+        person = Person(name: name2);
     } else if count == 2 {
-        person = Person(name:name3);
+        person = Person(name: name3);
     } else if count == 3 {
-        person = Person(name:name4);
+        person = Person(name: name4);
     } else if count == 4 {
-        person = Person(name:name5);
+        person = Person(name: name5);
     }
     
     count += 1
@@ -32,13 +32,12 @@ func createPerson() -> Person {
     return person
 }
 
-var person1 : Person
-person1 = createPerson()
-print("만들어진 사람 객체 : \(person1.name!)")
+var person: Person
+person = createPerson()
+print("만들어진 사람 객체 : \(person.name!)")
 
-person1 = createPerson()
-print("만들어진 사람 객체 : \(person1.name!)")
+person = createPerson()
+print("만들어진 사람 객체 : \(person.name!)")
 
-person1 = createPerson()
-print("만들어진 사람 객체 : \(person1.name!)")
-
+person = createPerson()
+print("만들어진 사람 객체 : \(person.name!)")

@@ -25,7 +25,8 @@ func createPerson() -> Person? {
     return person
 }
 
-var persons : Array<Person> = Array<Person>()
+//var persons: Array<Person> = Array<Person>()
+var persons: [Person] = []
 
 for i in 0..<5 {
     print("인덱스 \(i)의 사람이름 : \(names[i])")
@@ -51,7 +52,7 @@ for i in 0..<names2.count {
 
 let target = "티아라"
 if names2.contains(target) {
-    let index = names2.index(of:target)
+    let index = names2.index(of: target)
     print("\(target)의 인덱스 값 : \(index!)")
 }
 

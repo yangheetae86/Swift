@@ -10,10 +10,11 @@ class Person {
 
 var count = 0
 let names = ["소녀시대","걸스데이","여자친구","티아라","애프터스쿨"]
-let ages = Array<Int>([20,23,22,20,21])
+//let ages = Array<Int>([20,23,22,20,21])
+let ages = [20,23,22,20,21]
 
 func createPerson() -> Person {
-    var person : Person!
+    var person: Person!
     person = Person(name:names[count], age:ages[count]);
 
     count += 1
@@ -21,15 +22,15 @@ func createPerson() -> Person {
     return person
 }
 
-var person1 : Person
-person1 = createPerson()
-print("만들어진 사람 객체 : \(person1.name!)")
+var person: Person
+person = createPerson()
+print("만들어진 사람 객체 : \(person.name!)")
 
-person1 = createPerson()
-print("만들어진 사람 객체 : \(person1.name!)")
+person = createPerson()
+print("만들어진 사람 객체 : \(person.name!)")
 
-person1 = createPerson()
-print("만들어진 사람 객체 : \(person1.name!)")
+person = createPerson()
+print("만들어진 사람 객체 : \(person.name!)")
 
 //person1 = createPerson()
 //person1 = createPerson()
