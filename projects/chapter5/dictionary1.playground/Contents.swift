@@ -1,4 +1,5 @@
-var girls: [Int:String] = [1:"소녀시대",2:"걸스데이",3:"티아라"]
+var girls = [1:"소녀시대",2:"걸스데이",3:"티아라"]
+//var girls: [Int:String] = [1:"소녀시대",2:"걸스데이",3:"티아라"]
 print("girls 딕셔너리의 원소 개수 : \(girls.count)")
 
 if (girls[1] != nil) {

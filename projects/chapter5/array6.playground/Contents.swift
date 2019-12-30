@@ -15,6 +15,6 @@ for i in 0..<phonebook.count {
 
 for i in 0..<phonebook.count {
     for j in 0..<phonebook[i].count {
-        print("\(i,j)번째 값 : \(phonebook[i][j])")
+        print("(\(i), \(j))번째 값 : \(phonebook[i][j])")
     }
 }
