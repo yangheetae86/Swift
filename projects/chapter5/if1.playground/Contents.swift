@@ -25,16 +25,16 @@ if myblood == Blood.A {
     print("알 수 없는 혈액형입니다.")
 }
 
-func checkBlood(type : String) -> String? {
+func checkBlood(type: String) -> String? {
     if type == "A" || type == "O" {
         return "OK"
     }
-    
+
     return nil
 }
 
-if let result = checkBlood(type:"O") {
-    print("혈액 검사 결과 : \(result)")
+if let mYcheckBlood = checkBlood(type: "O") {
+    print("혈액 검사 결과 : \(mYcheckBlood)")
 } else {
     print("혈액 검사 결과는 nil입니다.")
 }
@@ -45,11 +45,3 @@ if let result1 = checkBlood(type:sources[0]), let result2 = checkBlood(type:sour
 } else {
     print("혈액 검사 결과는 nil입니다.")
 }
-
-
-
-
-
-
-
-

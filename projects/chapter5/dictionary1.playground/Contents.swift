@@ -8,7 +8,7 @@ if (girls[1] != nil) {
 
 girls[1] = "여자친구"
 girls[7] = "애프터스쿨"
-
+//girls 에 있는 키와 값을 프린트 하세요
 for (k, v) in girls {
     print("걸그룹 키와 값 -> \(k) : \(v)")
 }
