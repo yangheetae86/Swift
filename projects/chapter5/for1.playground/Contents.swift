@@ -13,6 +13,6 @@ for (key,value) in orders {
 }
 
 var message = "안녕하세요!"
-for ch in message.characters {
+for ch in message {
     print("for ~ in 문자열 : \(ch)")
 }

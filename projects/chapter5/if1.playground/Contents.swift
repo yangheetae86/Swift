@@ -40,8 +40,8 @@ if let mYcheckBlood = checkBlood(type: "O") {
 }
 
 var sources = ["A", "B"]
-if let result1 = checkBlood(type:sources[0]), let result2 = checkBlood(type:sources[1]) {
-    print("혈액 검사 결과 : \(result1), \(result2)")
+if let checkBloodD = checkBlood(type:sources[0]), let checkBloodD2 = checkBlood(type:sources[1]) {
+    print("혈액 검사 결과 : \(checkBloodD), \(checkBloodD2)")
 } else {
     print("혈액 검사 결과는 nil입니다.")
 }
