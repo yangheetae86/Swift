@@ -11,16 +11,16 @@ func checkBlood(type : String) -> String? {
     if type == "A" || type == "O" {
         return "OK"
     }
-    
+
     return nil
 }
 
 func checkBloodTest(myblood:String) {
-    guard let result = checkBlood(type:myblood) else {
+    guard let result = checkBlood(type: myblood) else {
         print("혈액 검사 결과는 nil입니다.")
         return
     }
-    
+
     print("result 결과 : \(result)")
 }
 

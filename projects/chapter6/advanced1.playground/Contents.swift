@@ -23,5 +23,4 @@ func appendFormFeed(a:Int, b:String) -> (Int, String) {
 
 let append2 : (Int, String) -> (Int, String) = appendFormFeed
 print("append2 호출 결과 : \(append2(10,"김준수"))")
-
-
+print(append2(10,"222"))

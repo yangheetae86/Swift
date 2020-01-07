@@ -6,7 +6,7 @@ func subtract(first a:Int, second b:Int) -> Int {
     return a - b
 }
 
-func selectCalc(index:Int) -> ((Int, Int) -> Int)? {
+func selectCalc(index:Int) -> ((Int, Int) -> Int)! {
     if index == 1 {
         print("add 계산기를 선택했습니다.")
         return add
@@ -19,7 +19,7 @@ func selectCalc(index:Int) -> ((Int, Int) -> Int)? {
     }
 }
 
-var addCalc = selectCalc(index:1)!
+var addCalc = selectCalc(index: 1)!
 var result = addCalc(20, 20)
 print("add 함수 실행 결과 : \(result)")
 
