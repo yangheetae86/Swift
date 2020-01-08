@@ -1,24 +1,24 @@
-let show = { () -> () in
-    print("show 함수 호출됨.")
-}
-
-show()
-
-let show2 = { () -> Void in
-    print("show2 함수 호출됨.")
-}
-
-show2()
-
-({ () -> Void in
-    print("즉시실행함수 호출됨.")
-})()
-
-let show3 : Void = ({ () -> Void in
-    print("즉시실행함수 호출됨.")
-})()
-
-print("show3의 값 : \(show3)")
+//let show = { () -> () in
+//    print("show 함수 호출됨.")
+//}
+//
+//show()
+//
+//let show2 = { () -> Void in
+//    print("show2 함수 호출됨.")
+//}
+//
+//show2()
+//
+//({ () -> Void in
+//    print("즉시실행함수 호출됨.")
+//})()
+//
+//let show3: Void = ({ () -> Void in
+//    print("즉시실행함수 호출됨.")
+//})()
+//
+//print("show3의 값 : \(show3)")
 
 
 func getCalc(index:Int) -> ((Int, Int) -> Int)? {
