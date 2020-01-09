@@ -24,7 +24,11 @@ class Person {
     }
 }
 
-var person01 = Person(name: "매롱")
-person01.walk(speed:1)
+//var person01 = Person(name: "매롱")
+//person01.walk(speed:1)
+//
+//print("Group 속성 -> \(person01.group)")
 
-print("Group 속성 -> \(person01.group)")
+var person02 = Person(name: "eee")
+person02.run(speed: 2)
+print("Group 속성 -> \(person02.group)")

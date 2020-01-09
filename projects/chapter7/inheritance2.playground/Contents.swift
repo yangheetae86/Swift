@@ -1,6 +1,6 @@
 class Person {
-    var name : String!
-    var age : Int!
+    var name : String
+    var age : Int
 
     init(name:String, age:Int) {
         self.name = name
@@ -33,3 +33,6 @@ print("baby1 정보 -> \(baby1.toString())")
 
 var baby2 = Baby(name:"티아라")
 print("baby2 정보 -> \(baby2.toString())")
+
+var baby3 = Baby(name: "ee")
+print("baby2 정보 -> \(baby3.toString())")

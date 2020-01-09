@@ -12,6 +12,16 @@ class Person {
     }
 }
 
+class NotBaby:Person {
+    override func walk(duration: Int) -> Int {
+        return duration * 5
+    }
+    
+    func nocry() {
+        print("아기 안움")
+    }
+}
+
 class Baby : Person {
     override func walk(duration:Int) -> Int {
         return duration * 5
@@ -28,5 +38,5 @@ print("person1 걸어간 거리 -> \(person1.walk(duration:10))")
 var baby1 = Baby(name:"걸스데이", age:22)
 print("baby1 걸어간 거리 -> \(baby1.walk(duration:10))")
 
-
-
+var udult = NotBaby(name: "어른", age: 55)
+print("baby1 걸어간 거리 -> \(udult.walk(duration:10))")
