@@ -37,29 +37,29 @@ if let baby3 = person2 as? Baby {
     print("\(baby3.name)는 Baby 자료형으로 형변환되었습니다.")
 }
 
-let baby4 = person2 as! Baby
-print("\(baby4.name)는 Baby 자료형으로 형변환되었습니다.")
-
-var person3 : Any = Person(name:"애프터스쿨", age:24)
-var baby5 : AnyObject = Baby(name:"여자친구", age:23)
-let person4 = person3 as? Person
-let baby6 = baby5 as? Baby
-
-if person4 != nil {
-    print("Any에서 Person으로 형변환되었습니다.")
-}
-
-if baby6 != nil {
-    print("AnyObject에서 Baby로 형변환되었습니다.")
-}
-
-var array1 = [AnyObject]()
-array1.append(person1)
-array1.append(baby1)
-print("array1의 크기 : \(array1.count)")
-
-var dict1 = [String:Any]()
-dict1["1"] = person1
-dict1["2"] = baby1
-dict1["3"] = 10
-print("dict1의 크기 : \(dict1.count)")
+//let baby4 = person2 as! Baby
+//print("\(baby4.name)는 Baby 자료형으로 형변환되었습니다.")
+//
+//var person3 : Any = Person(name:"애프터스쿨", age:24)
+//var baby5 : AnyObject = Baby(name:"여자친구", age:23)
+//let person4 = person3 as? Person
+//let baby6 = baby5 as? Baby
+//
+//if person4 != nil {
+//    print("Any에서 Person으로 형변환되었습니다.")
+//}
+//
+//if baby6 != nil {
+//    print("AnyObject에서 Baby로 형변환되었습니다.")
+//}
+//
+//var array1 = [AnyObject]()
+//array1.append(person1)
+//array1.append(baby1)
+//print("array1의 크기 : \(array1.count)")
+//
+//var dict1 = [String:Any]()
+//dict1["1"] = person1
+//dict1["2"] = baby1
+//dict1["3"] = 10
+//print("dict1의 크기 : \(dict1.count)")
