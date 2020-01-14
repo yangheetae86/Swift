@@ -1,29 +1,19 @@
 class ShoppingList<Element> {
-//    var list = [Element]();
-    var list:[Element] = []
-    
-    
+    var list: [Element] = []
     func add(newElement: Element) -> Int {
         list.append(newElement)
         return list.count
     }
-    
     func get(index: Int) -> Element {
         return list[index]
     }
-    
     func remove(at: Int) -> Element {
         return list.remove(at: at)
     }
 }
-var mylist = ShoppingList<String>()
+var mylist = ShoppingList<String>() //제네릭
 var count = mylist.add(newElement: "양배추")
-print("쇼핑 리스트에 추가했다. \(count)")
-
-
-//var mylist = ShoppingList<String>() // 제네릭
-//var count = mylist.add(newElement:"양배추")
-//print("쇼핑리스트에 추가했습니다. : \(count)")
+print("쇼핑 리스트에 추가했습니다. \(count)")
 
 //class ShoppingItem {
 //    var name : String
@@ -40,16 +30,18 @@ print("쇼핑 리스트에 추가했다. \(count)")
 //print("ShoppingItem 객체를 쇼핑리스트에 추가했습니다. : \(count2)")
 //
 //
-//func show<T>(data: T) -> T {
-//    print("데이터 : \(data)")
-//    return data
-//}
-//
-//show(data:"안녕하세요!")
-//show(data:10.1)
-//
+func show<T>(data: T) -> T {
+    print("데이터 : \(data)")
+    return data
+}
 
+show(data:"안녕하세요!")
+show(data:10.1)
 
+func show<me>(go: me) -> me {
+    print("고: \(go)")
+    return go
+}
 
-
-
+show(go: "고고")
+show(go: 2323)
