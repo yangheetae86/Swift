@@ -31,6 +31,6 @@ protocol Calculator {
     
 }
 
-var calculator : Calculator = MyCalculator(owner: "소녀시대")
+var calculator = MyCalculator(owner: "소녀시대")
 var result = calculator.add(first:10, second:10)
 print("add 결과 -> \(result)")

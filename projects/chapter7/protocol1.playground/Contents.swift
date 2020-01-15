@@ -12,10 +12,9 @@ var calculator : Calculator = MyCalculator()
 var result = calculator.add(first:10, second:10)
 print("add 결과 -> \(result)")
 
-
-class FriendCalculator : Calculator {
+class FriendCalculator: Calculator {
     func add(first a: Int, second b: Int) -> Int {
-        print("FriendCalculator에서 더하기 실행 : \(a), \(b)")
+        print("FriendCalculator에서 더하기 실행: \(a), \(b)")
         return a + b
     }
 }
