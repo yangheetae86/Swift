@@ -29,11 +29,11 @@ createPerson(name:"티아라",age:24)
 
 class Team {
     var person : Person!
-    
+
     init() {
         person = Person(name:"애프터스쿨", age:23)
     }
-    
+
     func show() {
         print("Team 안의 Person 객체 : \(person.name)")
     }
@@ -42,5 +42,3 @@ class Team {
 var team1 : Team! = Team()
 team1.show()
 team1 = nil
-
-

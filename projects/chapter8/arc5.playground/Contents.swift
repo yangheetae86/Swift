@@ -20,6 +20,3 @@ print("person1을 배열에 추가했습니다.")
 
 persons.remove(at:0)
 person1 = nil
-
-
-
