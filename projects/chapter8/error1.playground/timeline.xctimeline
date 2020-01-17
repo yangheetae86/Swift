@@ -3,8 +3,18 @@
    version = "3.0">
    <TimelineItems>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/Y/Documents/Swift_Sub/projects/chapter8/error1.playground#CharacterRangeLen=0&amp;CharacterRangeLoc=1592&amp;EndingColumnNumber=0&amp;EndingLineNumber=60&amp;StartingColumnNumber=0&amp;StartingLineNumber=60&amp;Timestamp=600770285.018082"
+         documentLocation = "file:///Users/Y/Documents/Swift/projects/chapter8/error1.playground#CharacterRangeLen=255&amp;CharacterRangeLoc=1337&amp;EndingColumnNumber=0&amp;EndingLineNumber=60&amp;StartingColumnNumber=1&amp;StartingLineNumber=48&amp;Timestamp=600893279.075119"
          lockedSize = "{269, 72}"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/Y/Documents/Swift/projects/chapter8/error1.playground#CharacterRangeLen=27&amp;CharacterRangeLoc=1058&amp;EndingColumnNumber=0&amp;EndingLineNumber=40&amp;StartingColumnNumber=5&amp;StartingLineNumber=39&amp;Timestamp=600893279.075302"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/Y/Documents/Swift/projects/chapter8/error1.playground#CharacterRangeLen=23&amp;CharacterRangeLoc=1227&amp;EndingColumnNumber=0&amp;EndingLineNumber=46&amp;StartingColumnNumber=5&amp;StartingLineNumber=45&amp;Timestamp=600893279.075413"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>

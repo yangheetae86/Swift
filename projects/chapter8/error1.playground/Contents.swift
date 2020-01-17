@@ -40,12 +40,12 @@ do {
     print("더하기 결과: \(result1)")
     
     let result2 = try calc1.subtract(first: 20, second: 20)
-    print("더하기 결과: \(result2)")
+    print("뺴기 결과: \(result2)")
 
 } catch CalculatorError.Unimplemented {
-    print("구현되지 않은 기능입니다.")
-} catch CalculatorError.Incorrect(let reason) {
-    print("Incorrect 에러: \(reason)")
+    print("구현되지 않은 기능입니다1")
+} catch CalculatorError.Incorrect(reason: "문구") {
+    print("Incorrect 에러1: \("문구")")
 }
 
 
@@ -54,7 +54,7 @@ do {
     print("나누기 결과 : \(result3)")
 
 } catch CalculatorError.Unimplemented {
-    print("구현되지 않은 기능입니다.")
+    print("구현되지 않은 기능입니다2")
 } catch CalculatorError.Incorrect(let reason) {
-    print("Incorrect 에러 : \(reason)")
+    print("Incorrect 에러2: \(reason)")
 }
