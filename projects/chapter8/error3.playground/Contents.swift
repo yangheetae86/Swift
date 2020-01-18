@@ -15,10 +15,18 @@ func checkData(data:Int) throws {
 }
 
 do {
-    try checkData(data:-10)
-} catch let error where error is CustomError {
-    let errorInfo = error as! CustomError
-    print("에러 : \(errorInfo.code), \(errorInfo.message)")
+    try checkData(data: -10)
+} catch let er where er is CustomError {
+    let errorInfo = er as! CustomError
+    print("에러: \(errorInfo.code), \(errorInfo.message)")
 } catch {
     print("기타 에러")
 }
+//do {
+//    try checkData(data:-10)
+//} catch let error where error is CustomError {
+//    let errorInfo = error as! CustomError
+//    print("에러 : \(errorInfo.code), \(errorInfo.message)")
+//} catch {
+//    print("기타 에러")
+//}
