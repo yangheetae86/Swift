@@ -12,6 +12,7 @@ extension Person : Runnable {
     }
 }
 
-var person1 : Person = Person()
+var person1 = Person()
 person1.name = "김준수"
 person1.run()
+

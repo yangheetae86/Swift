@@ -1,15 +1,14 @@
 class Person {
-    var firstName : String!
-    var lastName : String!
+    var firstName: String!
+    var lastName: String!
 }
 
 extension Person {
-    var name : String {
+    var name: String {
         get {
             return firstName + " " + lastName
         }
     }
-    
     func walk() {
         print("사람 \(name)이(가) 걸어갑니다.")
     }
