@@ -1,6 +1,6 @@
 // string length
 var message : String = "안녕하세요!"
-var length = message.characters.count
+var length = message.count
 print("길이 : \(length)")
 
 // check the string is empty
