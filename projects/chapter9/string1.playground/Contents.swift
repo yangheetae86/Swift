@@ -12,6 +12,8 @@ if name.isEmpty {
 // get a character using index
 var first = message[message.startIndex]
 var last = message[message.index(before: message.endIndex)]
+//var end = message[message.endIndex]
+ 
 print("첫번째 : \(first), 마지막 : \(last)")
 
 // prefix and suffix
@@ -24,20 +26,22 @@ if message.hasSuffix("!") {
 }
 
 // substring
-let range = message.index(message.startIndex, offsetBy:1) ... message.index(message.endIndex, offsetBy:-2)
+let range = message.index(message.startIndex, offsetBy: 1) ...
+            message.index(message.endIndex, offsetBy:-2)
 let messagePart = message[range]
 print("인덱스 1~(끝-2) : \(messagePart)")
 
-let range2 = message.index(message.startIndex, offsetBy:2) ..< message.endIndex
+let range2 = message.index(message.startIndex, offsetBy:2) ..<
+             message.endIndex
 let messagePart2 = message[range2]
 print("인덱스 2~끝 : \(messagePart2)")
 
 // remove part of the string
+
 message.removeSubrange(range2)
 print("인덱스 2~끝 삭제 후 : \(message)")
 
 // upper, lower
 var id = "TestUser01"
-print("LowerCase : \(id.lowercased())")
-print("UpperCase : \(id.uppercased())")
-
+print("LowerCase: \(id.lowercased())")
+print("UpperCase: \(id.uppercased())")
