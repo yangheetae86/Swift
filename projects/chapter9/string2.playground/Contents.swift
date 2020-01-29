@@ -31,5 +31,5 @@ print("하세요 글자의 인덱스 : \(range1.lowerBound), \(range1.upperBound
 var password = "T123456   "
 print("trim 전 : [\(password)]")
 
-var trimmed = password.trimmingCharacters(in:NSCharacterSet.whitespaces)
+var trimmed = password.trimmingCharacters(in: CharacterSet.whitespaces)
 print("trim 후 : [\(trimmed)]")

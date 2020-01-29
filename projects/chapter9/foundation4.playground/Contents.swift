@@ -1,14 +1,13 @@
 import Foundation
 
-
-let names : NSArray = ["소녀시대", "걸스데이", "티아라"]
+let names: NSArray = ["소녀시대", "걸스데이", "티아라"]
 NSLog("NSArray 배열의 원소 개수 : %d", names.count)
 
 var index = 0
 for item in names {
     let name = item as! String
     NSLog("원소 #%d : %@", index, name)
-    
+
     index += 1
 }
 
@@ -28,6 +27,6 @@ for item in names2 {
     } else {
         print("원소 #\(index) 가 문자열이 아닙니다. : \(item)")
     }
-    
+
     index += 1
 }
